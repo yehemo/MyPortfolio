@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yehemo</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
+<!-- Header / Navbar -->
+<header>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand me-auto" href="#"><span class="text-danger">Yeh</span> Ky Hong</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Portfolio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2 active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#skill">Skill</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#project">Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Hero / Home -->
+<section class="hero-section " id="home">
+    <div class="container d-flex align-items-center
+     justify-content-center text-center
+     fs-1 text-white flex-column" >
+        <h1>Focused on Growth, Quality, and Consistency</h1>
+        <p>"Success is built quietly, one step at a time."</p>
+    </div>
+</section>
+
+<!-- About -->
+<section class="about-section" id="about">
+    <div class="container">
+        <div class="row g-1 align-items-center justify-content-center">
+
+            <!-- IMAGE -->
+            <div class="col-lg-4 col-12 order-1 order-lg-2 text-center p-4">
+                <img src="asset/img/emo.png" class="img-fluid rounded" alt="Profile">
+            </div>
+
+            <!-- TEXT -->
+            <div class="col-lg-6 col-12 order-2 order-lg-1 p-3">
+
+                <div class="row">
+
+                    <!-- NAME -->
+                    <div class="col-12 text-center text-lg-end mb-1 mb-lg-3" >
+                        <h3>Yeh Ky Hong</h3>
+                        <p>Software Developer</p>
+                    </div>
+
+                    <!-- ABOUT -->
+                    <div class="about-text col-12 text-center p-3">
+                        <h3>About Me</h3>
+                        <p>
+                            I build the reliable, scalable architecture behind digital
+                            experiences, focusing on robust systems and performance from
+                            the ground up.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Skill -->
+<section id="skill" class="skill-section">
+    <div class="container">
+        <h2 class="text-center mt-5 mb-5">Programming Languages</h2>
+
+        <div class="row mt-5 g-4">
+
+            <div class="col-6 col-md-4">
+                <div class="skill-box">
+                    <h5>C / C++</h5>
+                    <p>Game logic, performance-critical systems</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4">
+                <div class="skill-box">
+                    <h5>C#</h5>
+                    <p>Game scripting, backend services</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4">
+                <div class="skill-box">
+                    <h5>Java</h5>
+                    <p>Backend systems, APIs, services</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4">
+                <div class="skill-box">
+                    <h5>SQL</h5>
+                    <p>Database design & queries</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4">
+                <div class="skill-box">
+                    <h5>Python</h5>
+                    <p>Automation, tools, scripting</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4">
+                <div class="skill-box">
+                    <h5>HTML / CSS</h5>
+                    <p>Frontend structure & styling</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Project -->
+<section id="project" class="project-section">
+    <h2 class="text-center mt-5 mb-5">Projects</h2>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="../asset/img/gameProject.png" class="d-block w-100" alt="Game">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>2D Game</h3>
+                    <p>
+                        A 2D game is a flat digital experience where
+                        characters and objects move on the X and Y plane.
+                        Its simplicity allows for creative gameplay,
+                        unique art styles, and fast action.
+                    </p>
+
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="../asset/img/petAI.png" class="d-block w-100" alt="Pet">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Pet AI</h3>
+                    <p>
+                        Pet AI using Arduino is a small interactive system
+                        that reacts to touch, sound, or movement.
+                        It mimics simple pet behaviors using sensors,
+                        LEDs, and servo motors.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="contact-section">
+    <h2 class="text-center mb-5">Contact Me</h2>
+    <div class="container d-flex justify-content-center text-center mx-auto">
+        <form   id="contact-form"
+                action="https://formspree.io/f/mnjjbwll"
+              method="POST"
+              style="width: 26rem;">
+            <!-- Name input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+                <input type="text" id="form4Example1" class="form-control" name="name" />
+                <label class="form-label" for="form4Example1">Name</label>
+            </div>
+
+            <!-- Email input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+                <input type="email" id="form4Example2" class="form-control" name="email"/>
+                <label class="form-label" for="form4Example2">Email address</label>
+            </div>
+
+            <!-- Message input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+                <textarea class="form-control" id="form4Example3" rows="4" name="message"></textarea>
+                <label class="form-label" for="form4Example3">Message</label>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="form-check d-flex justify-content-center mb-4">
+                <input
+                        class="form-check-input me-2"
+                        type="checkbox"
+                        value=""
+                        id="form4Example4"
+                        checked
+                />
+                <label class="form-check-label" for="form4Example4">
+                    Send me a copy of this message
+                </label>
+            </div>
+
+            <!-- Submit button -->
+            <button data-mdb-ripple-init type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+        </form>
+    </div>
+</section>
+
+<script src="asset/js/main.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
